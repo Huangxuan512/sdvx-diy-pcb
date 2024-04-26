@@ -1,6 +1,10 @@
 # SDVX Controller (DIY)
  
- 
+ LEONARDO ARDUINO Firmware Modified Based on Pin Definitions from PCB https://github.com/FreezeRasis/sdvx-diy-pcb
+
+The PCB in question utilizes an Arduino ProMicro, and the pin definitions in the Arduino firmware differ significantly from those on the PCB. Consequently, I made minor adjustments to the firmware to align it with the pin configuration of this specific PCB.
+
+
 <div style='float: center'>
   <img style='width: 200px' src='http://consandstuff.github.io/rhythmcons/sound-voltex/sdvx-normal/pics/pic021.png'></img>
 </div>
