@@ -30,7 +30,7 @@ uint8_t ledPins[] = {21,5,15,7,9,19,16};
 
 #define ENCODER_SENSITIVITY (double) 0.375
 // encoder sensitivity = number of positions per rotation times 4 (24*4) / number of positions for HID report (256)
-Encoder encL(1, 0), encR(2, 3);
+Encoder encL(0, 1), encR(2, 3);
 /*
    connect encoders
    VOL-L to pins 0 and 1
